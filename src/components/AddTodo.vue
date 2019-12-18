@@ -5,10 +5,12 @@
       <br/>
       <input type="date" v-model="date" name="date">
       <br/>
+      <br/>
+
       <select v-model="selected">
       <option :value="Done" disabled>Done?</option>
-        <option>Yes</option>
-        <option>No</option>
+        <option>Yes </option>
+        <option>No </option>
       </select>
       <br/>
       <input type="text" v-model="title" name="title" placeholder="Notes...">
